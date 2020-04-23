@@ -12,7 +12,7 @@ function isValid(str) {
   for(let i = 0; i < str.length; i++){
     //if the current value is any of the open brackets
     //then push the value into the array.
-    if(str[i] == '(' || str[i] == '[' || str[i] == '{'){
+    if(str[i] === '(' || str[i] === '[' || str[i] === '{'){
       arr.push(str[i]);
     }
     else{

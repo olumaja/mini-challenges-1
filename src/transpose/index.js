@@ -10,13 +10,12 @@ function transpose(array) {
   myArr[0][0] = array[0][0];
   for(let i = 0; i < array.length; i++){
     for(let j = 0; j < array[0].length; j++){
-      //const item = array[i][j];
       myArr[j][i] = array[i][j];
     }
   }
-  array = myArr;
-  console.log(array);
-  return array;
+
+  console.log(myArr);
+  return myArr;
 
 }
 
